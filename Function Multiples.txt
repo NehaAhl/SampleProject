@@ -1,0 +1,10 @@
+Function Multiples(A,X)
+Dim i,m
+Do
+m=i*A
+i=i+1
+msgbox m
+Loop while m<X
+End Function
+
+Call Multiples(2, 10)
